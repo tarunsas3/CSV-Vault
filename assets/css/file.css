@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: cascadia code;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 44px;
+}
+
+#searchInput {
+  width: 25%;
+  margin-left: 80px;
+  height: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #111;
+  outline: none;
+  padding: 0.5rem;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.fileDisplaySection {
+  width: 90%;
+  height: 570px;
+  overflow: auto;
+  margin: auto;
+}
+
+table {
+  width: fit-content;
+  border-collapse: separate;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 2px solid #111;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  width: fit-content;
+  border: 2px solid #111;
+}
+
+th {
+  width: fit-content;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.fileDisplaySection::-webkit-scrollbar {
+  width: 0px; /* Adjust the width of the scrollbar */
+}
+
+.fileDisplaySection::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+}
+
+.fileDisplaySection::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the color of the scrollbar thumb */
+  border-radius: 0px; /* Add rounded corners to the thumb */
+}
+
+.fileDisplaySection::-webkit-scrollbar-thumb:hover {
+  background-color: transparent; /* Change the color on hover */
+}
+
+.sort-button {
+  background: green;
+  padding: 0.25rem;
+  margin: 5px auto;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
